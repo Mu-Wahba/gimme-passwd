@@ -11,16 +11,13 @@ git clone https://github.com/mu-wahba/gimme-passwd
 cd gimme-passwd
 
 ```
-
 Configure the environment for your needs, copy the example environment file:
 ```bash
 cp .env.example .env
 ```
-
-## Usage
-
+To build:
 ```bash
-go run -o gimme-passwd
+go build -o gimme-passwd
 ```
 
 ## Examples
